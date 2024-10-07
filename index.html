@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <!-- Box-icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <!-- <img src="images/logo.png" alt="error" style="width: 50px; height: 50px;"> -->
+            <a href="#" class="logo"><span>Debugging</span><br> Study<br> <span>Strategies</span></a>
+            <a href="/signin.html" class="login">Welcome</a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Study Tips Blogger</h2>
+            <span class="home-subtitle">Where have you been roaming in the digital realm? I’m here, fully online and ready to engage! <br>You Are Architect Of Your Life</span>
+        </div>
+    </section>
+
+    <section class="about container" id="about">
+        <div class="contentBx">
+            <h2 class="titleText">Navigating Today’s Educational Challenges</h2>
+            <p class="title-text">
+                In today’s fast-paced learning environment, students encounter several significant challenges:
+                <br>
+                <b>1. Online Learning Fatigue:</b> Prolonged screen time leads to burnout and disengagement.<br>
+                <b>2. Mental Health Struggles:</b>  Academic pressures contribute to rising anxiety and stress levels.<br>
+                <b>3. Distraction Dilemma:</b> The lure of social media and notifications makes maintaining focus difficult.<br>
+                <b>4. Ineffective Study Techniques:</b> Many students struggle to find personalized and effective learning methods.<br>
+                <b>5. Procrastination:</b> Delaying assignments due to distractions becomes a common hurdle.<br>
+                <b>6. Resource Accessibility:</b> Unequal access to books and technology creates disparities in learning experiences.<br>
+                <b>7. Career Uncertainty:</b> Rapidly changing job markets leave students anxious about their future paths.<br>
+                <b>8. Peer Pressure:</b> The desire to compete can lead to stress and self-doubt.<br>
+                <b>9. Balancing Work and Study:</b> Juggling part-time jobs with academics often leads to exhaustion.<br>
+                <b>10. Lack of Support Systems:</b> Many feel isolated, missing out on mentorship and community support.<br>
+            </p>
+            <a href="https://www.edutopia.org/" target="_blank" class="btn2">Read more</a>
+        </div>
+        <div class="imgBx">
+            <img src="images/frustrated-transformed.webp" alt="error" class="fitBg" height="700">
+            <!-- <iframe src="https://giphy.com/embed/Kd6ML2o6mEv1Cp0O16" width="480" height="271"></iframe> -->
+        </div>
+    </section>
+
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter="all">All</span>
+        <span class="filter-item" data-filter="tech">Ideal</span>
+        <span class="filter-item" data-filter="food">Study Techniques</span>
+        <span class="filter-item" data-filter="news">Healthy Food</span>
+    </div>
+    
+    <div class="post container">
+        <!-- Post 1 -->
+        <div class="post-box tech">
+            <img src="images/apj_Sir.webp" alt="" class="post-img">
+            <h2 class="category">Motivators</h2>
+            <a href="#" class="post-title">Dr. A.P.J. Abdul Kalam</a>
+            <span class="post-date">October 15, 1931 to July 27, 2015</span>
+            <p class="post-description">Former President and aerospace scientist who inspired millions from humble beginnings.</p>
+            <div class="profile">
+                <img src="images/indian_flag.jpg" alt="" class="profile-img">
+                <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" class="profile-name" target="_blank">More..</a>
+            </div>
+        </div>
+        <!-- Post 2 -->
+        <div class="post-box food">
+            <img src="images/pomodoro.jpg" alt="" class="post-img">
+            <h2 class="category">Mind Excercise</h2>
+            <a href="#" class="post-title">Pomodoro Technique:<br> Time Management Strategy</a>
+            <span class="post-date">Time: 10:00 AM - 12:00 PM</span>
+            <p class="post-description">Study for 25 minutes, then take a 5-minute break. After four cycles, take a longer break (15-30 minutes).</p>
+            <p class="post-description">Enhances focus and prevents burnout.</p>
+            <div class="profile">
+                <img src="images/mind_exercise.png" alt="" class="profile-img">
+                <a href="https://www.pomodorotechnique.com/" class="profile-name" target="_blank">More..</a>
+            </div>
+        </div>
+        <!-- Post 3 -->
+        <div class="post-box food">
+            <img src="images/Active_recall.png" alt="" class="post-img">
+            <h2 class="category">Mind Excercise</h2>
+            <a href="#" class="post-title">Active Recall: <br>Study Technique or Retrieval Practice</a>
+            <span class="post-date">Time: 6:00 PM - 6:30 PM</span>
+            <p class="post-description">After studying, quiz yourself on the material without looking at your notes.</p>
+            <p class="post-description">Strengthens memory retention.</p>
+            <div class="profile">
+                <img src="images/mind_exercise.png" alt="" class="profile-img">
+                <a href="https://www.goodnotes.com/blog/active-recall-studying" class="profile-name" target="_blank">More..</a>
+            </div>
+        </div>
+        <!-- Post 4 -->
+        <div class="post-box news">
+            <img src="images/Blueberry.jpg" alt="" class="post-img">
+            <h2 class="category">Food</h2>
+            <a href="#" class="post-title">Blueberries</a>
+            <span class="post-date">Time: 8:00 AM (with breakfast or as a morning snack).</span>
+            <p class="post-description">Rich in antioxidants, they enhance memory and cognitive function.</p>
+            <div class="profile">
+                <img src="images/Healthy_Food.avif" alt="" class="profile-img">
+                <a href="https://en.wikipedia.org/wiki/Blueberry" class="profile-name" target="_blank">More..</a>
+            </div>
+        </div>
+        <!-- Post 5 -->
+        <div class="post-box tech">
+            <img src="images/kiran_bedi.avif" alt="" class="post-img">
+            <h2 class="category">Motivators</h2>
+            <a href="#" class="post-title">Kiran Bedi</a>
+            <span class="post-date">June 9, 1949</span>
+            <p class="post-description">The first woman to join the Indian Police Service (IPS), Kiran Bedi faced numerous challenges but excelled in her studies and became a prominent social activist.</p>
+            <div class="profile">
+                <img src="images/indian_flag.jpg" alt="" class="profile-img">
+                <a href="https://en.wikipedia.org/wiki/Kiran_Bedi" class="profile-name" target="_blank">More..</a>
+            </div>
+        </div>
+        <!-- Post 6 -->
+        <div class="post-box news">
+            <img src="images/walnuts.webp" alt="" class="post-img">
+            <h2 class="category">Food</h2>
+            <a href="#" class="post-title">Walnuts</a>
+            <span class="post-date">Time: 3:00 PM (as an afternoon snack during study breaks).</span>
+            <p class="post-description">Packed with omega-3 fatty acids, they support brain health and improve concentration.</p>
+            <div class="profile">
+                <img src="images/Healthy_Food.avif" alt="" class="profile-img">
+                <a href="https://en.wikipedia.org/wiki/Walnut#:~:text=Walnuts%20are%20the%20round%2C%20single,segment%20shells%20can%20also%20form)." class="profile-name" target="_blank">More..</a>
+            </div>
+        </div>
+        <!-- Post 7 -->
+        <div class="post-box tech">
+            <img src="images/Sundar_pichai.jpg" alt="" class="post-img">
+            <h2 class="category">Motivators</h2>
+            <a href="#" class="post-title">Sundar Pichai</a>
+            <span class="post-date">June 10, 1972</span>
+            <p class="post-description">The CEO of Alphabet Inc. and Google grew up in a modest family in Chennai. His hard work and dedication to education took him to the top of one of the world's biggest tech companies.</p>
+            <div class="profile">
+                <img src="images/indian_flag.jpg" alt="" class="profile-img">
+                <a href="https://en.wikipedia.org/wiki/Sundar_Pichai" class="profile-name" target="_blank">More..</a>
+            </div>
+        </div>
+
+        <!-- Post 8 -->
+        <div class="post-box news">
+            <img src="images/Leafy_Green.webp" alt="" class="post-img">
+            <h2 class="category">Food</h2>
+            <a href="#" class="post-title">Leafy Greens</a>
+            <span class="post-date">Time: 12:30 PM (for lunch or in a smoothie).</span>
+            <p class="post-description">Foods like spinach and kale are high in vitamins and minerals that promote mental clarity and reduce fatigue.</p>
+            <div class="profile">
+                <img src="images/Healthy_Food.avif" alt="" class="profile-img">
+                <a href="https://en.wikipedia.org/wiki/Leaf_vegetable" class="profile-name" target="_blank">More..</a>
+            </div>
+        </div>
+        <!-- Post 9 -->
+        <div class="post-box food">
+            <img src="images/mind_mapping.avif" alt="" class="post-img">
+            <h2 class="category">Mind Excercise</h2>
+            <a href="#" class="post-title">Mind Mapping: Visual Learning Tool</a>
+            <span class="post-date">Time: 9:00 AM - 9:30 AM</span>
+            <p class="post-description">Create a visual diagram that connects concepts and ideas related to a subject.</p>
+            <p class="post-description">Boosts organization and comprehension.</p>
+            <div class="profile">
+                <img src="images/mind_exercise.png" alt="" class="profile-img">
+                <a href="https://www.mindmapping.com/" class="profile-name" target="_blank">More..</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>
+                    Welcome to <font color="aqua">Debugging</font> Study <font color="aqua">Strategies!</font><br><br>
+                    
+                    We’re a <font color="aqua">passionate</font> team dedicated to helping students and learners thrive. Our mission? To share effective study tips, inspiring stories, and valuable resources that make learning enjoyable and successful.<br><br>
+                    
+                    What We Offer:<br>
+                    
+                    ✅ <font color="aqua">Study Hacks:</font> Practical tips to boost your study game.<br>
+                    ✅ <font color="aqua">Inspiring Stories:</font> Learn from those who’ve overcome challenges.<br>
+                    ✅ <font color="aqua">Helpful Resources:</font> Tools and guides to enhance your learning.<br><br>
+                    Join our community and unlock your potential! Let’s make studying not just productive, but fun! <br><br>Thank you for being here!</p>
+                <ul class="sci">
+                    <li><a href="https://www.facebook.com/profile.php?id=100022685990191" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/abhishekkumar3349/" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                    <li><a href="https://x.com/ABHISHEK21_04" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="sec contactBx">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-map'></i></span>
+                        <span>Dhanbad <br> Jharkhand <br> India</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-envelope' ></i></span>
+                        <p><a href="mailto:abhishekdhn8080@gmail.com">abhishekdhn8080@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>
